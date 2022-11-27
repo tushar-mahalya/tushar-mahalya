@@ -1,9 +1,5 @@
 <div align="center"> <img src="./github-header-image.png"> </div>
 
-
-<h1 align="center">Hi 👋, I'm Tushar Sharma</h1>
-<h3 align="center">A passionate Data Scientist from India</h3>
-
 <img align="right" alt="Coding" width="300" src="https://res.cloudinary.com/practicaldev/image/fetch/s--nywMuMEC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/znasu1fsxx6j1v30hxdm.gif">
 
 - 🔭 I’m currently persuing BS in Data Science and Applications from **IIT, Madras**
