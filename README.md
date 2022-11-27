@@ -1,4 +1,5 @@
-![Header](./github-header-image.png)
+<div align="center"> <img src="./github-header-image.png"> </div>
+
 
 <h1 align="center">Hi 👋, I'm Tushar Sharma</h1>
 <h3 align="center">A passionate Data Scientist from India</h3>
