@@ -1,8 +1,8 @@
 <div align="center"> <img src="./github-header-image.png"> </div>
 <img align="right" alt="Coding" width="300" src="https://res.cloudinary.com/practicaldev/image/fetch/s--nywMuMEC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/znasu1fsxx6j1v30hxdm.gif">
-- 🔭 I’m currently persuing BS in Data Science and Applications from **IIT, Madras**
-- 🌱 I’m currently learning **Computer Vision (CV), Large Language Models (LLM), Natural Language Processing (NLP) and Complex Neural Network Pipelines**
-- 📫 How to reach me **tusharmahalya@gmail.com**
+- 🔭 I’m currently persuing BS in Data Science and Applications from <b>IIT, Madras</b>
+- 🌱 I’m currently learning <b>Computer Vision (CV), Large Language Models (LLM), Natural Language Processing (NLP) and Complex Neural Network Pipelines</b>
+- 📫 How to reach me <b>tusharmahalya@gmail.com</b>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
    <a href="https://twitter.com/tushar_mahalya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="tushar_mahalya" height="30" width="40" /></a>
