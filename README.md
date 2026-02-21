@@ -126,21 +126,6 @@ class TusharSharma:
 
 ---
 
-## GitHub Analytics
-
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tushar-mahalya&theme=react" width="86%" />
-</p>
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tushar-mahalya&theme=react" width="43%" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tushar-mahalya&theme=react&utcOffset=8" width="43%" />
-</p>
-<p align="center">
-   <img src="https://github-readme-streak-stats.herokuapp.com?user=tushar-mahalya&theme=react&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="86%" />
-</p>
-
----
-
 ## 🏆 Highlights
 
 ```yaml
@@ -159,6 +144,21 @@ certifications:
   - "Model Context Protocol: Advanced Topics @ Anthropic"
   - "Machine Learning Specialization @ Stanford University(Coursera)"
 ```
+
+---
+
+## GitHub Analytics
+
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tushar-mahalya&theme=react" width="56%" />
+</p>
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tushar-mahalya&theme=react" width="28%" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tushar-mahalya&theme=react&utcOffset=8" width="28%" />
+</p>
+<p align="center">
+   <img src="https://github-readme-streak-stats.herokuapp.com?user=tushar-mahalya&theme=react&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="56%" />
+</p>
 
 ---
 
