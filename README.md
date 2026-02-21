@@ -21,7 +21,7 @@
 
 ## About Me
 
-I'm a **Master's student in Computer Science at Rutgers University** with a passion for the intersection of **data engineering, AI, and cloud computing**. I believe in building clean, reproducible, and scalable solutions not just models that work, but **systems that last**.
+I'm an **AI Engineer** focused on building scalable, production-ready intelligent systems — specializing in ML/DL, LLM applications & RAG pipelines. I believe in building clean, reproducible, and scalable solutions not just models that work, but **systems that last**.
 
 ```python
 class TusharSharma:
@@ -164,7 +164,7 @@ certifications:
 
 ## Let's Connect
 
-I'm always excited to discuss **data engineering**, **AI systems**, **MLOps**, or **open-source collaboration**. Whether you're building something innovative or want to exchange ideas about intelligent systems, let's connect!
+I'm always excited to discuss **AI systems**, **Agentic Workflows** and collaborate for any **Data Science Competitions**, or **open-source collaboration**. Whether you're building something innovative or want to exchange ideas about intelligent systems, let's connect!
 
 <div align="center">
 
