@@ -150,14 +150,12 @@ certifications:
 ## GitHub Analytics
 
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tushar-mahalya&theme=react" width="56%" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tushar-mahalya&theme=react" height="160px" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tushar-mahalya&theme=react" height="160px" />
 </p>
 <p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tushar-mahalya&theme=react" width="28%" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tushar-mahalya&theme=react&utcOffset=8" width="28%" />
-</p>
-<p align="center">
-   <img src="https://github-readme-streak-stats.herokuapp.com?user=tushar-mahalya&theme=react&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="56%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=tushar-mahalya&theme=react&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" height="300px" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=tushar-mahalya&theme=react&utcOffset=8" height="300px" />
 </p>
 
 ---
