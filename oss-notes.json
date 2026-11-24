@@ -1,0 +1,4 @@
+{
+  "algorithmicsuperintelligence/openevolve#611": "A timed-out evaluation kept the only worker thread busy, so every program after it timed out too. Timeouts now get a fresh executor.",
+  "StarTrail-org/LEANN#480": "Metadata-filtered search could return fewer than top_k results, or none. The search now widens its candidate pool until enough results match."
+}
