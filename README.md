@@ -154,12 +154,13 @@ Bug fixes I've landed in open-source AI and data tools, each with a regression t
 <!-- OSS:START -->
 <div align="center">
 
-![Merged PRs](https://img.shields.io/badge/merged_PRs-2-10B981?style=for-the-badge&logo=github) ![Projects](https://img.shields.io/badge/projects-2-4B5563?style=for-the-badge&logo=git&logoColor=white)
+![Merged PRs](https://img.shields.io/badge/merged_PRs-3-10B981?style=for-the-badge&logo=github) ![Projects](https://img.shields.io/badge/projects-2-4B5563?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
 | | Project | Contribution | Merged |
 |:-:|:--|:--|:-:|
+| <img src="https://github.com/algorithmicsuperintelligence.png?size=80" width="40" alt="algorithmicsuperintelligence"/> | **[algorithmicsuperintelligence/openevolve](https://github.com/algorithmicsuperintelligence/openevolve)**<br>![stars](https://img.shields.io/github/stars/algorithmicsuperintelligence/openevolve?style=flat-square&label=%E2%98%85&color=4B5563) | [fix(controller): raise when checkpoint_path does not exist instead of starting fresh](https://github.com/algorithmicsuperintelligence/openevolve/pull/615) | Nov 2026 |
 | <img src="https://github.com/StarTrail-org.png?size=80" width="40" alt="StarTrail-org"/> | **[StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN)**<br>![stars](https://img.shields.io/github/stars/StarTrail-org/LEANN?style=flat-square&label=%E2%98%85&color=4B5563) | [fix(core): widen the candidate pool when metadata filters leave fewer than top_k results](https://github.com/StarTrail-org/LEANN/pull/480)<br><sub>Metadata-filtered search could return fewer than top_k results, or none. The search now widens its candidate pool until enough results match.</sub> | Nov 2026 |
 | <img src="https://github.com/algorithmicsuperintelligence.png?size=80" width="40" alt="algorithmicsuperintelligence"/> | **[algorithmicsuperintelligence/openevolve](https://github.com/algorithmicsuperintelligence/openevolve)**<br>![stars](https://img.shields.io/github/stars/algorithmicsuperintelligence/openevolve?style=flat-square&label=%E2%98%85&color=4B5563) | [fix(evaluator): give evaluations a free worker after a timeout](https://github.com/algorithmicsuperintelligence/openevolve/pull/611)<br><sub>A timed-out evaluation kept the only worker thread busy, so every program after it timed out too. Timeouts now get a fresh executor.</sub> | Nov 2026 |
 <!-- OSS:END -->
