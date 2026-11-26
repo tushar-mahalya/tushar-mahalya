@@ -149,7 +149,7 @@ certifications:
 
 ## Open Source Contributions
 
-Bug fixes I've landed in open-source AI and data tools, each with a regression test.
+Bug fixes and enhancements I've landed in popular open-source AI and data tools.
 
 <!-- OSS:START -->
 <p align="center">
@@ -160,8 +160,6 @@ Bug fixes I've landed in open-source AI and data tools, each with a regression t
     </picture>
   </a>
 </p>
-
-<p align="center"><sub>5 merged PRs in 4 projects with 26.4k combined stars · updated daily</sub></p>
 
 <details>
 <summary><b>All merged PRs</b></summary>
