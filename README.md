@@ -152,19 +152,29 @@ certifications:
 Bug fixes I've landed in open-source AI and data tools, each with a regression test.
 
 <!-- OSS:START -->
-<div align="center">
+<p align="center">
+  <a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Atushar-mahalya+-user%3Atushar-mahalya&type=pullrequests">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/oss-dark.svg">
+      <img alt="Open-source projects I have contributed to" src="assets/oss-light.svg" width="840">
+    </picture>
+  </a>
+</p>
 
-![Merged PRs](https://img.shields.io/badge/merged_PRs-5-10B981?style=for-the-badge&logo=github) ![Projects](https://img.shields.io/badge/projects-4-4B5563?style=for-the-badge&logo=git&logoColor=white)
+<p align="center"><sub>5 merged PRs in 4 projects with 26.4k combined stars · updated daily</sub></p>
 
-</div>
+<details>
+<summary><b>All merged PRs</b></summary>
 
-| | Project | Contribution | Merged |
-|:-:|:--|:--|:-:|
-| <img src="https://github.com/posit-dev.png?size=80" width="40" alt="posit-dev"/> | **[posit-dev/pointblank](https://github.com/posit-dev/pointblank)**<br>![stars](https://img.shields.io/github/stars/posit-dev/pointblank?style=flat-square&label=%E2%98%85&color=4B5563) | [fix: apply segments= and pre= on PyArrow tables](https://github.com/posit-dev/pointblank/pull/593)<br><sub>On PyArrow tables, segments= didn't filter, so every segment was checked against all rows, and segments='col' and pre= errored. All three now behave as on pandas and Polars.</sub> | Nov 2026 |
-| <img src="https://github.com/pydata.png?size=80" width="40" alt="pydata"/> | **[pydata/xarray](https://github.com/pydata/xarray)**<br>![stars](https://img.shields.io/github/stars/pydata/xarray?style=flat-square&label=%E2%98%85&color=4B5563) | [Pin python-xxhash<4 in the min-versions environment](https://github.com/pydata/xarray/pull/11939)<br><sub>python-xxhash 4 broke the minimum-versions CI job for every PR. Pinned it there so the job tests the oldest supported versions again.</sub> | Nov 2026 |
-| <img src="https://github.com/algorithmicsuperintelligence.png?size=80" width="40" alt="algorithmicsuperintelligence"/> | **[algorithmicsuperintelligence/openevolve](https://github.com/algorithmicsuperintelligence/openevolve)**<br>![stars](https://img.shields.io/github/stars/algorithmicsuperintelligence/openevolve?style=flat-square&label=%E2%98%85&color=4B5563) | [fix(controller): raise when checkpoint_path does not exist instead of starting fresh](https://github.com/algorithmicsuperintelligence/openevolve/pull/615)<br><sub>Resuming from a checkpoint path that didn't exist silently started a fresh run. It now raises, so a typo in the path can't quietly restart a long run from scratch.</sub> | Nov 2026 |
-| <img src="https://github.com/StarTrail-org.png?size=80" width="40" alt="StarTrail-org"/> | **[StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN)**<br>![stars](https://img.shields.io/github/stars/StarTrail-org/LEANN?style=flat-square&label=%E2%98%85&color=4B5563) | [fix(core): widen the candidate pool when metadata filters leave fewer than top_k results](https://github.com/StarTrail-org/LEANN/pull/480)<br><sub>Metadata-filtered search could return fewer than top_k results, or none. The search now widens its candidate pool until enough results match.</sub> | Nov 2026 |
-| <img src="https://github.com/algorithmicsuperintelligence.png?size=80" width="40" alt="algorithmicsuperintelligence"/> | **[algorithmicsuperintelligence/openevolve](https://github.com/algorithmicsuperintelligence/openevolve)**<br>![stars](https://img.shields.io/github/stars/algorithmicsuperintelligence/openevolve?style=flat-square&label=%E2%98%85&color=4B5563) | [fix(evaluator): give evaluations a free worker after a timeout](https://github.com/algorithmicsuperintelligence/openevolve/pull/611)<br><sub>A timed-out evaluation kept the only worker thread busy, so every program after it timed out too. Timeouts now get a fresh executor.</sub> | Nov 2026 |
+| Project | Contribution | Merged |
+|:--|:--|:-:|
+| [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | [fix: apply segments= and pre= on PyArrow tables](https://github.com/posit-dev/pointblank/pull/593)<br><sub>On PyArrow tables, segments= didn't filter, so every segment was checked against all rows, and segments='col' and pre= errored. All three now behave as on pandas and Polars.</sub> | Nov 2026 |
+| [pydata/xarray](https://github.com/pydata/xarray) | [Pin python-xxhash<4 in the min-versions environment](https://github.com/pydata/xarray/pull/11939)<br><sub>python-xxhash 4 broke the minimum-versions CI job for every PR. Pinned it there so the job tests the oldest supported versions again.</sub> | Nov 2026 |
+| [algorithmicsuperintelligence/openevolve](https://github.com/algorithmicsuperintelligence/openevolve) | [fix(controller): raise when checkpoint_path does not exist instead of starting fresh](https://github.com/algorithmicsuperintelligence/openevolve/pull/615)<br><sub>Resuming from a checkpoint path that didn't exist silently started a fresh run. It now raises, so a typo in the path can't quietly restart a long run from scratch.</sub> | Nov 2026 |
+| [algorithmicsuperintelligence/openevolve](https://github.com/algorithmicsuperintelligence/openevolve) | [fix(evaluator): give evaluations a free worker after a timeout](https://github.com/algorithmicsuperintelligence/openevolve/pull/611)<br><sub>A timed-out evaluation kept the only worker thread busy, so every program after it timed out too. Timeouts now get a fresh executor.</sub> | Nov 2026 |
+| [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | [fix(core): widen the candidate pool when metadata filters leave fewer than top_k results](https://github.com/StarTrail-org/LEANN/pull/480)<br><sub>Metadata-filtered search could return fewer than top_k results, or none. The search now widens its candidate pool until enough results match.</sub> | Nov 2026 |
+
+</details>
 <!-- OSS:END -->
 
 ---
