@@ -3,5 +3,6 @@
   "StarTrail-org/LEANN#480": "Metadata-filtered search could return fewer than top_k results, or none. The search now widens its candidate pool until enough results match.",
   "algorithmicsuperintelligence/openevolve#615": "Resuming from a checkpoint path that didn't exist silently started a fresh run. It now raises, so a typo in the path can't quietly restart a long run from scratch.",
   "posit-dev/pointblank#593": "On PyArrow tables, segments= didn't filter, so every segment was checked against all rows, and segments='col' and pre= errored. All three now behave as on pandas and Polars.",
-  "pydata/xarray#11939": "python-xxhash 4 broke the minimum-versions CI job for every PR. Pinned it there so the job tests the oldest supported versions again."
+  "pydata/xarray#11939": "python-xxhash 4 broke the minimum-versions CI job for every PR. Pinned it there so the job tests the oldest supported versions again.",
+  "apache/hamilton#1829": "With caching on, a node returning a pandas DataFrame or Series with list, dict or set cells crashed the whole run with an unhashable-type error. Those results are now fingerprinted as unhashable, so the run goes through and the cache just logs a warning."
 }
