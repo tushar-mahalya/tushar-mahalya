@@ -161,13 +161,14 @@ Bug fixes and enhancements I've landed in popular open-source AI and data tools.
   </a>
 </p>
 
-<p align="center"><sub>5 merged PRs in 4 projects with 26.4k combined stars · updated daily</sub></p>
+<p align="center"><sub>6 merged PRs in 5 projects with 29.1k combined stars · updated daily</sub></p>
 
 <details>
 <summary><b>All merged PRs</b></summary>
 
 | Project | Contribution | Merged |
 |:--|:--|:-:|
+| [apache/hamilton](https://github.com/apache/hamilton) | [Treat pandas objects with unhashable cells as unhashable in cache fingerprinting](https://github.com/apache/hamilton/pull/1829)<br><sub>With caching on, a node returning a pandas DataFrame or Series with list, dict or set cells crashed the whole run with an unhashable-type error. Those results are now fingerprinted as unhashable, so the run goes through and the cache just logs a warning.</sub> | Nov 2026 |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | [fix: apply segments= and pre= on PyArrow tables](https://github.com/posit-dev/pointblank/pull/593)<br><sub>On PyArrow tables, segments= didn't filter, so every segment was checked against all rows, and segments='col' and pre= errored. All three now behave as on pandas and Polars.</sub> | Nov 2026 |
 | [pydata/xarray](https://github.com/pydata/xarray) | [Pin python-xxhash<4 in the min-versions environment](https://github.com/pydata/xarray/pull/11939)<br><sub>python-xxhash 4 broke the minimum-versions CI job for every PR. Pinned it there so the job tests the oldest supported versions again.</sub> | Nov 2026 |
 | [algorithmicsuperintelligence/openevolve](https://github.com/algorithmicsuperintelligence/openevolve) | [fix(controller): raise when checkpoint_path does not exist instead of starting fresh](https://github.com/algorithmicsuperintelligence/openevolve/pull/615)<br><sub>Resuming from a checkpoint path that didn't exist silently started a fresh run. It now raises, so a typo in the path can't quietly restart a long run from scratch.</sub> | Nov 2026 |
